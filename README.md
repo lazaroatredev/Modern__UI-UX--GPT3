@@ -1,8 +1,23 @@
-# React + Vite
+# Modern_UI-UX_GPT3-Landing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologías Utilizadas  
 
-Currently, two official plugins are available:
+- **React**: Utilizado para construir la interfaz de usuario mediante componentes reutilizables, facilitando una estructura clara y eficiente para la aplicación.  
+- **JavaScript**: Proporciona la lógica y funcionalidad de la aplicación, permitiendo la manipulación del DOM y la gestión del estado de los componentes.  
+- **CSS (Nativo)**: Se utiliza para el estilizado del sitio, aplicando estilos directamente a los elementos HTML para lograr un diseño limpio y funcional.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características  
+
+- **Diseño Responsivo**: La página se adapta a diferentes tamaños de pantalla, mejorando la experiencia del usuario en dispositivos móviles y de escritorio.  
+- **Componentes Reutilizables**: Los elementos de la interfaz se crean como componentes de React, promoviendo la reutilización del código.  
+- **Animaciones Suaves**: Se implementan transiciones y animaciones sutiles para mejorar la interactividad de la página.  
+- **Integración de API**: Posibilidad de extender la funcionalidad con llamadas a APIs para mostrar datos en tiempo real sobre productos.  
+
+## Instalación  
+
+Para clonar y ejecutar esta aplicación, sigue estos pasos:  
+
+1. Clona el repositorio: https://github.com/lazaroatredev/Modern_UI_UX-Landing  
+2. Navega a la carpeta del proyecto.  
+3. Instala las dependencias: `npm install`  
+4. Inicia el servidor de desarrollo: `npm run dev`
