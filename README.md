@@ -1,10 +1,11 @@
 # Modern_UI-UX_GPT3-Landing
 
 ## Tecnologías Utilizadas  
-
+- **Vite**: Herramienta de construcción que acelera el desarrollo y la implementación con su servidor de desarrollo optimizado.
 - **React**: Utilizado para construir la interfaz de usuario mediante componentes reutilizables, facilitando una estructura clara y eficiente para la aplicación.  
 - **JavaScript**: Proporciona la lógica y funcionalidad de la aplicación, permitiendo la manipulación del DOM y la gestión del estado de los componentes.  
 - **CSS (Nativo)**: Se utiliza para el estilizado del sitio, aplicando estilos directamente a los elementos HTML para lograr un diseño limpio y funcional.  
+- **ESLint**: Asegura la calidad del código detectando errores y problemas de estilo en tiempo de desarrollo.  
 
 ## Características  
 
