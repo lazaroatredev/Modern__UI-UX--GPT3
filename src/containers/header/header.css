@@ -1,0 +1,100 @@
+.gpt3__header{
+    padding: 4rem 3rem;
+}
+
+.gpt3__header--grid{
+    display: grid;
+    align-items: center;
+}
+
+.gpt3__header--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.gpt__header--content_tittle{
+    font-size: 4.2rem;
+}
+
+.gpt3__header--content_text{
+    font-size: 1.5rem;
+    align-items: start;
+    color: white;
+    line-height: 1.5;
+}
+
+.gpt3__header--content_form label{
+    width: 100%;
+    display: flex;
+    margin: 3rem 0;
+}
+
+.gpt3__header--content_form input,
+.gpt3__header--content_form button{
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: 0;
+    width: 100%;
+}
+
+.gpt3__header--content_form input{
+    background-color: var(--color-footer);
+    flex: 3;
+    color: var(--color-text);
+}
+
+.gpt3__header--content_form button{
+    background-color: #FF4820;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    flex: 1;
+}
+
+.gpt3__header--content_people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.gpt3__header--content_people p {
+    color: white;
+    font-size:  1.5rem;
+    text-align: center;
+}
+.gpt__header--im {
+    margin: 0 auto;
+}
+.gpt__header--im img{
+    width: 100%;
+}
+
+@media (min-width:550px) { 
+    .gpt3__header--content_form input,
+    .gpt3__header--content_form button{
+        padding: 1.5rem 1.5rem;
+    }
+
+    .gpt3__header--content_people{
+        flex-direction: row;
+    }
+}
+
+@media (min-width:768px) { 
+    .gpt3__header--grid{
+        grid-template-columns: 4fr 3fr;
+        gap: 2rem;
+    }    
+
+    .gpt3__header--content_people{
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width:1280px) { 
+    .gpt3__header{
+        padding: 4rem 10rem;
+    }
+}
