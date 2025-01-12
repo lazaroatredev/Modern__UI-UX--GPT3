@@ -17,7 +17,7 @@
 
 Para clonar y ejecutar esta aplicación, sigue estos pasos:  
 
-1. Clona el repositorio: https://github.com/lazaroatredev/Modern_UI_UX-Landing  
+1. Clona el repositorio: https://github.com/lazaroatredev/Modern__UI-UX--GPT3
 2. Navega a la carpeta del proyecto.  
 3. Instala las dependencias: `npm install`  
 4. Inicia el servidor de desarrollo: `npm run dev`
